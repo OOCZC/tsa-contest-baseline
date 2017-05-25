@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 baseline 1: history pCVR of creativeID/adID/camgaignID/advertiserID/appID/appPlatform

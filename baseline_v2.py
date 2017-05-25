@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 baseline 2: ad.csv (creativeID/adID/camgaignID/advertiserID/appID/appPlatform) + lr
@@ -10,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LogisticRegression
 
 # load data
-data_root = "."
+data_root = "./data"
 dfTrain = pd.read_csv("%s/train.csv"%data_root)
 dfTest = pd.read_csv("%s/test.csv"%data_root)
 dfAd = pd.read_csv("%s/ad.csv"%data_root)
